@@ -1,0 +1,44 @@
+{
+  "name": "fireconsole",
+  "version": "0.0.1",
+  "description": "node package format logging output",
+  "preferGlobal": false,
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/mjzzanichelli/fireconsole",
+  "author": {
+    "name": "Jose' Marco Zanichelli",
+    "email": "mjzzanichelli@hotmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mjzzanichelli/fireconsole.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "node",
+    "console",
+    "process.stdout"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel ./src --watch --out-dir ./lib -s",
+    "build": "babel ./src -d ./lib"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}

@@ -1,8 +1,8 @@
-#Fireconsole
+#Fireconsole#
 
 process stdout formatting.
 
-##Installation
+##Installation##
 
 **fireconsole** is now public on [npm](https://www.npmjs.com/)
 
@@ -10,7 +10,7 @@ process stdout formatting.
 npm install fireconsole --save
 ```
 
-##Commands
+##Commands##
 
 ```js
 var fireconsole = require("fireconsole");

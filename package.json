@@ -1,6 +1,6 @@
 {
   "name": "fireconsole",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node package format logging output",
   "preferGlobal": false,
   "private": false,
